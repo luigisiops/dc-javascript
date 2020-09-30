@@ -1,0 +1,18 @@
+.section {
+    padding: 0px;
+}
+#remove {
+    margin-left:10px;
+}
+#current-heading {
+    background-color: rgb(230, 101, 92);
+}
+.container{
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+}
+
+@media (max-width:1024px){
+
+}

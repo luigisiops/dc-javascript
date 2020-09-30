@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <article class="panel is-primary">
+        <p class="panel-heading">
+            ToDo List
+        </p>
+        <p class="panel-tabs">
+            <a class="is-active">All</a>
+            <a>ToDo</a>
+            <a>Finished</a>
+        </p>
+        <div class="panel-block" >
+            <p class="control has-icons-left">
+                <input id = "newTask" class="input is-primary" type="text" placeholder="Create New Task">
+                <button id = "taskButton" class = "button">Add Task</button>
+                <span class="icon is-left">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                </span>
+            </p>
+        </div>
+
+        <article id = "current" class="Current">
+            <p  id = "current-heading" class="panel-heading">Current</p> 
+
+    </article>   
+
+    <article id = "list" class="Finished">
+        <p  class="panel-heading">Finished</p> 
+    </article>   
+    </article>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
