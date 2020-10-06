@@ -32,8 +32,9 @@ const createTemplate = async() => {
     console.log(data)
     let dataArray = data.Search
     let info = dataArray.map((element)=> {
-    return `<div class = "titles">${element.Title} (${element.Year})</div>
-            <img class = "images" src=${element.Poster}>`
+    return `<div class = "movie">
+            <div class = "titles">${element.Title} (${element.Year})</div>
+            <img class = "images" src=${element.Poster}></div>`
 })
 /*
 const createTemplate = async() => {
